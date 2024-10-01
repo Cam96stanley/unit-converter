@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6943ff;
+  width: auto;
+  height: 285px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 34px 51px 30px 51px;
+}
+
+#input-el {
+  background: #6943ff;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  width: 120px;
+  height: 80px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 58px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#convert-btn {
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+}
